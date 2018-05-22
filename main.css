@@ -195,8 +195,25 @@ body {
 
 .proj:hover {
     background-color: steelblue;
-    border-left: 10px solid #eee;
+    border-left: 10px solid rgb(161, 202, 235);
     color: white;
+}
+
+.projTitle {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.projDescription {
+    width: 85%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projUse {
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /* Contact Styles */
