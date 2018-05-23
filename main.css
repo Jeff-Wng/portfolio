@@ -70,7 +70,7 @@ body {
 }
 
 .Navbar {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     width: 300px;
@@ -115,7 +115,7 @@ body {
 .Nav {
     position: absolute;
     display: none;
-    width: 350px;
+    width: 400px;
     right: 0;
     top: 0;
     height: 98.3%;
@@ -186,8 +186,8 @@ body {
     padding-left: 35px;
     border-radius: 20px;
     border-left: 10px solid steelblue;
-    width: 525px;
-    height: 300px;
+    width: 750px;
+    height: 400px;
     margin-bottom: 50px;
     margin-left: 70px;
     margin-right: 0px;
@@ -200,19 +200,21 @@ body {
 }
 
 .projTitle {
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 20px;
+    font-weight: normal;
 }
 
 .projDescription {
     width: 85%;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 .projUse {
     margin-top: 50px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: normal;
     letter-spacing: 1px;
 }
 
