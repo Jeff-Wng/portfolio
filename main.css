@@ -14,27 +14,27 @@ body {
 }
 
 .Title {
-    margin-top: 275px;
-    margin-left: 25px;
+    margin: 300px 0 25px 25px;
     text-align: left;
 }
 
 .Title h1 {
-    font-size: 100px;
-    margin-bottom: 0;
+    font-size: 125px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     font-weight: normal;
 }
 
 .Title h2 {
-    font-size: 40px;
+    font-size: 55px;
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 25px;
     font-weight: normal;
 }
 
 .Links {
     width: 20%;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .Links ul {
@@ -46,7 +46,7 @@ body {
 
 .Links ul li a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: black;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .Nav ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 
@@ -163,14 +163,14 @@ body {
 /* Projects Styles */
 
 .bTitle {
-    font-size: 65px;
+    font-size: 100px;
     margin-bottom: 10px;
     margin-left: 70px;
     font-weight: normal;
 }
 
 .bSubs {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0;
     margin-left: 75px;
     margin-bottom: 50px;
