@@ -360,7 +360,6 @@ body {
 @media screen and (max-width: 750px) {
     .proj {
         width: 500px;
-        height: 450px;
     }
 
     .projDescription {
@@ -379,7 +378,6 @@ body {
     
     .proj {
         width: 450px;
-        height: 500px;
         margin-left: 30px;
     }
 }
@@ -387,7 +385,6 @@ body {
 @media screen and (max-width: 550px) {
     .proj {
         width: 400px;
-        height: 450px;
     }
 
     .projTitle {
