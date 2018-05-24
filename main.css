@@ -283,6 +283,14 @@ body {
     .Links ul li a {
         font-size: 20px;
     }
+
+    .Nav ul li a::after {
+        content: '';
+    }
+    
+    .Nav ul li a:hover::after {
+        content: '';
+    }
 }
 
 /* Projects Styles */
@@ -342,6 +350,55 @@ body {
     font-weight: normal;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 900px) {
+    .proj {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .proj {
+        width: 500px;
+        height: 450px;
+    }
+
+    .projDescription {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bTitle {
+        margin-left: 30px;
+    }
+    
+    .bSubs {
+        margin-left: 35px;
+    }
+    
+    .proj {
+        width: 450px;
+        height: 500px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .proj {
+        width: 400px;
+        height: 450px;
+    }
+
+    .projTitle {
+        font-size: 40px;
+    }
+    
+    .projDescription {
+        font-size: 22px;
+    }
+}
+
 
 /* Contact Styles */
 
