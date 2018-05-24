@@ -77,6 +77,10 @@ body {
     height: 100%;
 }
 
+.displayNone {
+    display: none;
+}
+
 .threeBars {
     position: absolute;
     top: 20px;
@@ -237,3 +241,127 @@ body {
     width: 100%;
     line-height: 40px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1650px) {
+    .Links {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1345px) {
+    .Links {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .Links {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Links {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Header {
+        padding-left: 0;
+    }
+
+    .Title h1 {
+        font-size: 110px;
+        margin-left: 5px;
+    }
+
+    .Title  h2 {
+        font-size: 40px;
+        margin-left: 15px;
+    }
+
+    .Links {
+        width: 35%;
+        margin-left: 45px;
+    }
+
+    .Links ul li a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Title h1 {
+        font-size: 100px;
+    }
+
+    .Links {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Title h1 {
+        font-size: 90px;
+    }
+
+    .Title  h2 {
+        font-size: 35px;
+    }
+
+    .Links {
+        width: 45%;
+    }
+
+    .Links ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {   
+    .Title h1 {
+        font-size: 90px;
+    }
+
+    .Title  h2 {
+        font-size: 35px;
+    }
+
+    .Links {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .Title h1 {
+        font-size: 70px;
+        margin-left: 0px;
+    }
+
+    .Title  h2 {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .Links {
+        width: 60%;
+        margin-left: 40px;
+    }
+
+    .Links ul {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .Links ul li {
+        margin-bottom: 15px;
+    }
+
+    .Links ul li a {
+        font-size: 20px;
+    }
+}
+
