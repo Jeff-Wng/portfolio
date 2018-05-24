@@ -370,6 +370,7 @@ body {
 @media screen and (max-width: 650px) {
     .bTitle {
         margin-left: 30px;
+        font-size: 75px;
     }
     
     .bSubs {
