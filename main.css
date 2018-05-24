@@ -73,8 +73,9 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    width: 300px;
     height: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .displayNone {
@@ -253,6 +254,15 @@ body {
     .Links {
         width: 45%;
     }
+
+    .Links ul {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .Links ul li {
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 500px) { 
@@ -269,15 +279,6 @@ body {
     .Links {
         width: 60%;
         margin-left: 40px;
-    }
-
-    .Links ul {
-        display: flex;
-        flex-flow: column;
-    }
-
-    .Links ul li {
-        margin-bottom: 15px;
     }
 
     .Links ul li a {
