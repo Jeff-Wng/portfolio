@@ -1,3 +1,8 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -397,6 +402,30 @@ body {
     }
 }
 
+@media screen and (max-width: 488px) {
+    .bTitle {
+        margin-left: 10px;
+        font-size: 65px;
+    }
+
+    .bSubs {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .proj {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .projTitle {
+        font-size: 35px;
+    }
+    
+    .projDescription {
+        font-size: 20px;
+    }
+}
 
 /* Contact Styles */
 
