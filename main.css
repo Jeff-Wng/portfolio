@@ -429,10 +429,16 @@ body {
 
     .projTitle {
         font-size: 40px;
+        letter-spacing: 2px;
     }
     
     .projDescription {
         font-size: 22px;
+    }
+
+    .projUse {
+        font-size: 18px;
+        letter-spacing: 1px;
     }
 }
 
@@ -455,10 +461,17 @@ body {
 
     .projTitle {
         font-size: 35px;
+        letter-spacing: 1px;
     }
     
     .projDescription {
         font-size: 20px;
+        line-height: 1.5em;
+    }
+
+    .projUse {
+        font-size: 15px;
+        letter-spacing: 1px;
     }
 }
 
