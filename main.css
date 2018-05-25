@@ -15,7 +15,6 @@ body {
 
 .homepage {
     background: url("./images/bg.jpg") no-repeat center center;
-    background-size: 100% 100vh;
 }
 
 /* Index Styles */
