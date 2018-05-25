@@ -10,6 +10,13 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.homepage {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Index Styles */
@@ -27,6 +34,7 @@ body {
     font-size: 125px;
     margin-bottom: 15px;
     margin-left: 15px;
+    color: white;
     font-weight: normal;
 }
 
@@ -34,6 +42,7 @@ body {
     font-size: 55px;
     margin-top: 0;
     margin-left: 25px;
+    color: white;
     font-weight: normal;
 }
 
@@ -52,18 +61,18 @@ body {
 .Links ul li a {
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 .Links ul li a:visited {
-    color: black;
+    color: white;
 }
 
 .Links ul li a::after {
     content: '';
     display: block;
     padding: 1.2px;
-    background-color: steelblue;
+    background-color: white;
     opacity: 0;
     width: 0%;
     transition: width linear 0.15s;
@@ -97,12 +106,21 @@ body {
 
 .Bar1,
 .Bar2,
-.Bar3 {
+.Bar3,
+.homeBar1,
+.homeBar2,
+.homeBar3 {
     width: 100%;
     height: 5px;
     background-color: steelblue;
     margin-top: 8px;
     transition: all linear 0.2s;
+}
+
+.homeBar1,
+.homeBar2,
+.homeBar3 {
+    background-color: white;
 }
 
 .change1 {
@@ -319,7 +337,7 @@ body {
     display: block;
     text-decoration: none;
     color: black;
-    background-color: #eee;
+    background-color: rgb(235, 235, 235);
     padding-top: 10px;
     padding-left: 35px;
     border-radius: 20px;
@@ -341,19 +359,21 @@ body {
     font-size: 45px;
     margin-top: 20px;
     font-weight: normal;
+    letter-spacing: 4px;
 }
 
 .projDescription {
     width: 85%;
     font-size: 25px;
     font-weight: normal;
+    line-height: 2em;
 }
 
 .projUse {
     margin-top: 50px;
     font-size: 20px;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 @media screen and (max-width: 900px) {
@@ -404,6 +424,7 @@ body {
 
 @media screen and (max-width: 488px) {
     .bTitle {
+        margin-top: 55px;
         margin-left: 10px;
         font-size: 65px;
     }
@@ -432,12 +453,13 @@ body {
 .info {
     margin-left: 70px;
     margin-top: 75px;
-    width: 525px;
+    width: 50%;
 }
 
 .info span {
     color: steelblue;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .info p {
@@ -445,6 +467,34 @@ body {
     margin-bottom: 50px;
     width: 100%;
     line-height: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    .info {
+        margin-left: 35px;
+        width: 80%;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .info {
+        margin-left: 15px;
+    }
+}
+
+/* About styles */
+
+.aboutLinks {
+    color: steelblue;
+    font-weight: bold;
+}
+
+.aboutLinks:visited {
+    color: steelblue;
 }
 
 

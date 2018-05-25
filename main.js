@@ -6,5 +6,8 @@ $(document).ready(function() {
         $(".Bar1").toggleClass('change1');
         $(".Bar2").toggleClass('change2');
         $(".Bar3").toggleClass('change3');
+        $(".homeBar1").toggleClass('change1');
+        $(".homeBar2").toggleClass('change2');
+        $(".homeBar3").toggleClass('change3');
     })
 })
